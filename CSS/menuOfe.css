@@ -1,0 +1,96 @@
+
+/* FORMATAÇÃO DE NAVEGADOR PRINCIPAL */
+
+   
+    nav ul{
+        list-style: none; /* esconder marcador da lista*/
+        position: relative; /* posição do menu é a tela - desliza*/
+        top: -30px;
+        left: 70px;
+           }
+
+    nav li{
+        display: inline-block; /* linhas do menu bloco linear*/
+        padding: 10px; /* espaço em celula*/
+        margin: 0.5px; /* margem entre celulas*/
+        text-transform: uppercase; /* caixa alta*/
+        background-color: rgb(187, 181, 181);
+        transition: background-color 1s; /* tempo transição cor background mouse*/
+         }
+     
+         
+/* Formatando mouse no nav*/
+    
+    nav {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bolder;
+        color: black;
+        text-decoration: none;
+         }
+
+
+    nav a{
+        color: rgb(2, 97, 2);
+        text-decoration: none;          /* tira sublinhado dos links*/
+         }
+
+
+ /* Formatando mouse no nav*/
+
+    nav li:hover {          /* HOVER = mouse flutuando sobre link*/
+        background-color: rgb(223, 224, 223));               /* escurece fundo */
+        text-shadow: 1px 1px 1px rgb(110,110,180);         }
+
+    nav a:hover {
+        color: white; /* muda cor do texto link com mouse*/
+                }
+
+        
+   /* ============================================================================ */
+
+   /* Formatação de Interface*/
+
+   
+   div#content {
+       width: 900px; /* define largura da caixa (DIV interface) */
+       background-color: rgb(245, 242, 242);
+       position: relative;
+       margin: -20px auto 0px 5px; /* define margens fora da interface (de cima em direção horária)*/
+       box-shadow: 5px 10px 30px black; /* desloca lateral > vertical > espalhamento da sombra */
+       padding: 10px 10px 10px 10px; /*define margens dentro da interface (igual precisa apenas o primeiro)*/
+
+                 }
+
+ 
+
+   p {                /* formato geral dos parágrafos*/
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;    
+       text-align: justify; /* justifica texto*/
+       text-indent: 50px;
+             }
+
+        
+
+
+
+
+
+
+
+     
+    
+   
+
+
+
+
+
+
+
+      
+            
+     
+
+

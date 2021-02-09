@@ -1,0 +1,91 @@
+﻿/* FORMATAÇÃO DE TEXTO*/
+
+
+	
+	/* TAMANHO FONTES */
+
+
+.fonte14 { font-size: 14px;}
+.fonte16 { font-size: 16px;}
+.fon20 { font-size: 20px;}
+.fonte18 { font-size: 18px;}
+.fonte50 { font-size: 50px;}
+.fonte60 { font-size: 60px;}
+.fonte70 { font-size: 70px;}
+.fonte80 { font-size: 80px;}
+.fonte90 { font-size: 90px;}
+.fonte100 { font-size: 100px;}
+
+
+	/* ESTILOS */
+
+.negrito { font-weight: bold;}
+.italico { font-style: italic;}
+
+
+
+	/* FONTES */
+
+.arial { font-family: "arial"}
+
+	
+	/* CORES DAS FONTES */
+
+.corvermelha { color: red;}
+.corazul { color: blue;}
+.corbranca { color: white;}
+
+	/* CORES DE FUNDO */
+
+.fundopreto { background-color: black;}
+.fundocinza { background-color: gray;}
+.fundocinzaclaro { background-color: lightgray;}
+.fundoouro { background-color: gold;}
+
+
+	/* ALINHAMENTO */ 
+
+.centraliza { text-align: center;}
+
+
+
+	/* BORDAS */ 
+
+.bordapontilhada {border-style: dotted;}
+.bordasolida {border-style: solid;}
+.bordavermelha {border-style: solid;
+  		border-color: red;
+		border-width: 3px}
+.bordaazul {border-style: solid;
+  		border-color: blue;
+		padding: 10px; /* espaço em celula*/
+
+}
+
+/* BORDAS */ 
+
+.larguraborda {width: 900px;}
+
+
+
+
+	/* MARGENS */
+.margemnormal {
+  		margin-top: 100px;
+ 		margin-bottom: 100px;
+ 		margin-right: 150px;
+ 		margin-left: 80px;}
+
+	/* TAGS */
+
+em {font-weight: bold;};
+
+
+.numeroMDF {color:blue;}
+
+
+
+/* ============================================================================ */
+
+
+
