@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orientador Fiscal Eletrônico</title>
+    <link href="../CSS/logotipoOfe.css" rel="stylesheet" />
+    <link href="../CSS/menuOfe.css" rel="stylesheet" />
+    <link href="../CSS/formularioOfe.css" rel="stylesheet" />
+    <link href="../CSS/formataTextoOfe.css" rel="stylesheet" />
+</head>
+
+
+<body>
+<div id="interface">
+    
+    <header> 
+
+<!-- Título Principal -->
+
+       
+        <hgroup>
+           
+         <figure id="brasao">
+            <img src="../imagens/brasao-ceara-transparente.png" /> 
+                
+        </figure>  
+                                        
+
+            <h1 id="TituloOfe1">Orientador de Fiscalização Eletrônico</h1>
+        </hgroup>
+
+
+
+<!-- botões de Navegação principal-->
+        <nav>
+            <ul>
+                
+                <li> <a href = "../mdfe/indexmdfe.html">Manifesto de Documentos</a> </li>
+                <li> <a href = "../mdfe/indexcte.html">Conhecimento de Transporte</a> </li>
+                <li> <a href = "../nfe/indexNfe.html">Nota Fiscal</a> </li>
+                <li> <a href = "enderecoSitram">SITRAM</a> </li>
+                <li> <a href = "enderecoFiscalizacao">Fiscalização</a> </li>
+                <li> <a href = "enderecoLegislacao">Legislação</a> </li>
+                
+            </ul>
+        </nav>
+
+    </header>
+
+		<!-- Fim de Navegação principal-->
+
+
+       <!-- FORMULÁRIO - Captura Informações ----------------------->
+ 
+<div class="formulario">
+
+        
+	<h3>Valor da Nota Fiscal</h3>
+             <input id="valorNotaFiscal" type="text" value "0,00" placeholder="digite o Valor da Nota Fiscal">  
+										<br>
+
+<h3>Frete FOB</h3>
+             <input id="valorFrete" type="text" value= "0,00" placeholder="digite o Valor da Frete FOB">  
+										<br>
+ 
+	
+
+	<h3>Agregado (%)</h3>
+    <input id="agregado" type="text" value= "0" placeholder="digite o Agregado">  
+										<br>
+
+
+<h3>Alíquota (%)</h3>
+             <input id="aliquota" type="text" value= "18" placeholder="digite a Alíquota">  
+										<br>
+
+<h3>NÚMERO DA NOTA FISCAL</h3>
+             <input id="numeroNotaFiscal" type="text" placeholder="digite número da NF">  
+										<br>
+                      
+   
+ 
+    <button onclick="clicar()">resultado</button>
+
+     
+</div>
+
+		<!-- FIM DE FORMULÁRIO ------------------------------------->
+
+
+
+
+
+	
+</br>
+</br>
+	<!-- DADOS DO AUTO DE INFRAÇÃO ----------------------->
+
+<div>
+
+ <h2 class="centraliza">  NOTA FISCAL DE DEMONSTRAÇÃO INIDÔNEA</h2>
+</br>
+ 										
+	<h3> CÓDIGO DA RECEITA: <em class="bordavermelha">1040</em> (PRINCIPAL E MULTA)</h3>
+										
+ 
+	<h3>CÓDIGO DA INFRAÇÃO: <em class="bordavermelha">319</em></h3>
+										
+
+	<h3>REMETER MERCADORIA COM DOCUMENTAÇÃO FISCAL INIDÔNEA. </h3>
+
+</br>
+  
+<p class="textoAutuacao fonte16 bordavermelha"></p>
+
+      
+	 	<!-- FIM DE AUTO DE INFRAÇÃO ------------------------------------->
+
+
+		<!-- INÍCIO DE MATRÍCULAS ------------------------------------->
+
+
+</br>
+</br>
+         
+ Matrículas (Turma C):
+
+</br>
+</br>
+     
+ 
+     <div class="bordavermelha italico">210394910;149780419;110308410;11060821x;106879918;110667712;149783817;110308917;110741211</div>
+
+
+	
+
+</div>
+</br>
+</br>
+
+
+<div class="bordasolida">
+
+  										
+	<h3> MEMÓRIA DE CÁLCULO </h3>
+										
+       									
+        
+
+<p class="textoBaseCalculo fonte16 "></p>										
+<p class="textoBaseCalculoAgregada fonte16 fundocinzaclaro "></p>    
+<p class="textoIcms fonte16  fundocinzaclaro"></p>
+<p class="textoMulta fonte16  fundocinzaclaro"></p>
+<p class="textoIcmsMulta fonte16 "></p>
+<p class="textoReducao fonte16 "></p>
+<p class="textoIcmsMultaReduzida fonte16 fundoouro"></p>
+
+ 
+</div>
+
+ 
+
+<!-- INÍCIO DE IMPRESSÃO AI E DAE ------------------------------------->
+
+<ul class="bordasolida">
+                
+		<li > <a href = "http://sistemas.sefaz.ce.gov.br/contentpub/aplicacao/intranet/prodserv/caf/default.asp" target="_blank">Imprimir Auto de Infração</a> </li>
+                <li > <a href = "https://servicos.sefaz.ce.gov.br/internet/dae/aplic/default.asp" target="_blank">Imprimir DAE</a> </li>
+		<li > <a href = "https://rpe-portal.sefaz.rs.gov.br/apl/index.html" target="_blank">Consulta Documentos Fiscais SOE-RS</a> </li>
+		<li > <a href = "http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp?cnpj=" target="_blank">Consultar CNPJ</a> </li>
+		<li > <a href = "https://intranet2.sefaz.ce.gov.br/retencao/toaf_novo/" target="_blank">CGM - Certificado de Guarda de Mercadoria</a> </li>
+		<li > <a href = "http://www8.receita.fazenda.gov.br/SimplesNacional/aplicacoes.aspx?id=21" target="_blank">Consulta Optante Simples Nacional</a> </li>
+		<li > <a href = "http://sistemas.sefaz.ce.gov.br/contentpub/aplicacao/flanet/" target="_blank">Acessar FLANET</a> </li>
+		<li > <a href = "../senha.html" target="_blank">Gerar Senha</a> </li>
+</ul>
+
+
+
+
+		<!-- FIM DE IMPRESSÃO AI E DAE ------------------------------------->
+
+       
+ 
+ <!-- INÍCIO DE SCRIPT ------------------------------------->
+           
+     <script>
+ 
+ 
+ /* AO CLICAR */
+ 
+ 
+ 
+     function clicar() {
+     
+ 
+		/* PUXA VALORES */
+
+         	var valorNotaFiscal = document.getElementById("valorNotaFiscal").value;
+		var valorFrete= document.getElementById("valorFrete").value;	
+		var agregado = document.getElementById("agregado").value;
+		var aliquota = document.getElementById("aliquota").value;
+var numeroNotaFiscal= document.getElementById("numeroNotaFiscal").value;
+		
+
+		/* TRANSFORMA EM NUMERAL FLOAT	*/
+
+		var valorNotaFiscal = parseFloat (valorNotaFiscal);
+		var valorFrete = parseFloat (valorFrete);
+		var aliquota = parseFloat (aliquota);
+		var agregado = parseFloat (agregado);
+
+
+		/* CALCULADORA */	 
+
+		
+		var baseCalculo = (valorNotaFiscal + valorFrete);
+		var baseCalculoAgregada = baseCalculo * (1 + (agregado / 100));
+		var icms = (baseCalculoAgregada * (aliquota  / 100));
+		var multa = (baseCalculoAgregada * (aliquota  / 100));
+		var reducao = (multa - (multa * 0.5));
+		var icmsMulta = (icms + multa)
+		var icmsMultaReduzida = (icms + reducao)
+
+		
+
+		/* MILHAGEM E DECIMAL*/
+
+		var valorNotaFiscal = (valorNotaFiscal).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+		var valorFrete = (valorFrete).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+		var baseCalculo = (baseCalculo).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+		var baseCalculoAgregada = (baseCalculoAgregada).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+		var icms = (icms).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+		var multa = (multa).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+		var reducao = (reducao).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+		var icmsMulta = (icmsMulta).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+		var icmsMultaReduzida = (icmsMultaReduzida).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2});
+
+
+		 /* TEXTO*/
+
+		var textoBaseCalculo = `Base de Cálculo do ICMS (Valor da Nota R$ ${valorNotaFiscal} + Frete FOB R$ ${valorFrete}) = R$ <em>${baseCalculo}</em>`;
+		var textoBaseCalculoAgregada = `Base de Cálculo do ICMS com Agregação de ${agregado}% = R$ <em class="bordavermelha">${baseCalculoAgregada}</em>`;
+		var textoIcms = `ICMS (Alíquota de <em class="bordavermelha">${aliquota}</em>%) = R$ <em class="bordavermelha">${icms}</em>`;
+		var textoMulta = `Multa (1 X o valor do ICMS) (cheia) = R$ <em class="bordavermelha">${multa}</em>`;
+		var textoReducao = `Multa com Redução de 50% = R$ <em>${reducao}</em>`;
+		var textoIcmsMulta = `ICMS ${aliquota}% + Multa (cheia) R$ <em>${icmsMulta}</em>`;
+		var textoIcmsMultaReduzida = `ICMS ${aliquota}% + Multa Reduzida em 50% = R$ <em>${icmsMultaReduzida}</em>`;
+
+
+
+		var textoAutuacao=`AUTUADA REMETEU MERCADORIA ACOBERTADA PELA NOTA FISCAL <em>${numeroNotaFiscal}</em>. SENDO ESSE DOCUMENTO FISCAL INIDONEO POR NAO SE CARACTERIZAR COMO DEMONSTRAÇÃO, TENDO EM VISTA QUE A QUANTIDADE DE ITENS REMETIDA FOI MAIOR QUE A NECESSARIA PARA QUE O DESTINATARIO CONHECESSE O PRODUTO, CONFORME DETERMINA O ART.683 DO RICMS-CE E DA CLAUSULA SEGUNDA DO AJUSTE SINIEF 02/2018.`;
+
+
+
+
+
+		
+		/* ESCREVE NO HTML */
+
+		document.querySelector(".textoBaseCalculo").innerHTML= textoBaseCalculo;
+		document.querySelector(".textoBaseCalculoAgregada").innerHTML= textoBaseCalculoAgregada;
+		document.querySelector(".textoIcms").innerHTML= textoIcms;
+		document.querySelector(".textoMulta").innerHTML= textoMulta;
+		document.querySelector(".textoReducao").innerHTML= textoReducao;
+		document.querySelector(".textoIcmsMulta").innerHTML= textoIcmsMulta;
+		document.querySelector(".textoIcmsMultaReduzida").innerHTML= textoIcmsMultaReduzida;
+		document.querySelector(".textoAutuacao").innerHTML= textoAutuacao;
+
+
+
+
+         
+         }
+     
+       
+   
+         
+        
+ 
+     </script>
+ 
+ </body>
+ 
+ </html>

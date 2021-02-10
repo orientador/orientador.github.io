@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerador de Senha - OF-e</title>
+    <link href="CSS/logotipoOfe.css" rel="stylesheet" />
+    <link href="CSS/menuOfe.css" rel="stylesheet" />
+    <link href="CSS/formularioOfe.css" rel="stylesheet" />
+    <link href="CSS/formataTextoOfe.css" rel="stylesheet" />
+</head>
+
+
+<body>
+<div id="interface">
+    
+    <header> 
+
+
+
+    </header>
+
+		<!-- Fim de Navegação principal-->
+
+
+       <!-- FORMULÁRIO - Captura Informações ----------------------->
+ 
+<div >
+
+        
+	<h3></h3>
+             <input id="numeroMdf" type="text" placeholder="digite o número da senha aqui">  
+										
+ 
+									                     
+   
+ 
+    <button onclick="clicar()">Gerar</button>
+ 
+     
+</div>
+
+		<!-- FIM DE FORMULÁRIO ------------------------------------->
+
+
+
+
+
+	<!-- DADOS DA SENHA ----------------------->
+
+<div class="centraliza">
+
+ 
+     
+<h3 class="resultado fonte100 negrito"></h> 
+ 
+
+
+ </div>
+        
+	 	
+
+    
+ 
+ <!-- INÍCIO DE SCRIPT ------------------------------------->
+           
+     <script>
+ 
+ 
+ /* AO CLICAR */
+ 
+ 
+ 
+     function clicar() {
+     
+ 
+         var numeroMdf = document.getElementById("numeroMdf").value;
+         
+         
+         
+ 
+         var Gerar = `SENHA <br>${numeroMdf} <br> <i class="fonte50 centraliza arial">FISCALIZAÇÃO</i>`;
+ 
+ 
+         document.querySelector(".resultado").innerHTML= Gerar;
+         
+         }
+     
+
+         
+        
+ 
+     </script>
+ 
+ </body>
+ 
+ </html>
