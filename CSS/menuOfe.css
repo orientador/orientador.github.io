@@ -1,4 +1,4 @@
-
+﻿
 /* FORMATAÇÃO DE NAVEGADOR PRINCIPAL */
 
    
@@ -53,7 +53,7 @@
 
    
    div#content {
-       width: 900px; /* define largura da caixa (DIV interface) */
+       width: 1000px; /* define largura da caixa (DIV interface) */
        background-color: rgb(245, 242, 242);
        position: relative;
        margin: -20px auto 0px 5px; /* define margens fora da interface (de cima em direção horária)*/

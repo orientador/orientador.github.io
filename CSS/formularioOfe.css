@@ -8,19 +8,20 @@
     font-weight: bold;
     font-style: italic;
     background-color: rgb( 50, 100, 191);
-    /*text-shadow: 1px 3px 3px white;*/
+    
     text-align: left
-	padding-top: 0px;
- 	padding-bottom: 0px;
- 	padding-right: 100px;
- 	padding-left: 100px; 
-    display: float
+	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	padding-right: 10px;
+ 	padding-left: 10px; 
+    display: run-in;
 
-width: 50px; /* define largura da caixa (DIV interface) */
-position: relative;
-margin: -20px auto 0px 5px; /* define margens fora da interface (de cima em direção horária)*/
-box-shadow: 5px 10px 30px black; /* desloca lateral > vertical > espalhamento da sombra */
-padding: 10px 10px 10px 10px; /*define margens dentro da interface (igual precisa apenas o primeiro)*/
+/*text-shadow: 1px 3px 3px white;*/
+ width: auto; define largura da caixa (DIV interface) 
+/* position: relative;*/
+ margin: -30px auto 0px 5px;  define margens fora da interface (de cima em direção horária)
+/* box-shadow: 5px 10px 30px black;  desloca lateral > vertical > espalhamento da sombra */
+/* padding: auto; define margens dentro da interface (igual precisa apenas o primeiro)*/
 
 
 

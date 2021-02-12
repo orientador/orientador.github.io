@@ -84,6 +84,11 @@ em {font-weight: bold;};
 .numeroMDF {color:blue;}
 
 
+	/* ALINHAMENTO */
+
+.linha {display:inline-block;}
+
+
 
 /* ============================================================================ */
 
